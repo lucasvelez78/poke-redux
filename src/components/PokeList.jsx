@@ -11,6 +11,8 @@ const PokeList = ({ pokemons }) => {
           key={poke.name}
           image={poke.sprites.other["official-artwork"].front_default}
           types={poke.types}
+          id={poke.id}
+          favorite={poke.favorite}
         />
       ))}
     </div>
